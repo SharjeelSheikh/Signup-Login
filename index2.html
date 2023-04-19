@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/SignUp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@1,200;1,400&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Zeyada&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="box">
+        <span class="borderLine"></span>
+        <form>
+            <h2>Login</h2>
+            <div class="inputBox">
+                <input type="email" id="email" required="required">
+                <span>Email</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" name="password" id="password" required="required">
+                <span>Password</span>
+                <i></i>
+            </div>
+            <div class="links">
+                <a href="π">Forget Password</a>
+                <a href="index.html" class="text signup-link">Signup Now</a>
+            </div>
+            <div class="input-field button">
+                <input onclick="login()" class="Button" type="submit" value="Login">
+            </div>
+        </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
